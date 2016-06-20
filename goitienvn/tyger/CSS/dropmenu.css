@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document ######### Style for Drop Down Menu ######### */
+
+a {
+	text-decoration:none;
+	display:block;
+	padding: 1px 8px 2px;
+	font: bold 20px "Times New Roman", Times, serif;
+	border: 0px solid #bbb;
+	color:#003399
+	
+	/* background-color: #bbb;  */
+}
+
+a:hover, a:active{
+	background-color: #EAFADC;
+}
+
+ul li { list-style:none;}
+
+.dropmenudiv{
+	position:absolute;
+	top: 0;
+	border-bottom: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	font:normal 12px Verdana;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 160px;
+	visibility: hidden;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+}
+
+
+.dropmenudiv a{ text-align:left;
+	border: none;
+	background:none;
+	width: auto;
+	display: block;
+	 /* border-bottom: 1px solid #bbb;THEME CHANGE HERE*/
+	padding: 2px 0 3px 10px;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 16px;
+	color:#006666;;
+	border-radius: 10px;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/ width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+	background-color: #EAFADC;
+	color: black;
+
+}

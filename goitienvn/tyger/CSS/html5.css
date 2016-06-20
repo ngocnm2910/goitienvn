@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+._body {
+	margin: 0 auto;
+	padding:0;
+	overflow:auto;
+	width:665px;
+	height:620px;
+	background-color:white;
+	border:0px solid pink;
+		}
+section#xfer { width: 40%; float:left; margin-top: 2em;}
+
+aside#rate { width: 60%; float: right; margin-top: 2em;}
+
+
+.xrate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color:Green; text-align:center;}
+.repairrate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color:blue; text-align:center;}
+.vinarate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color: #66C; text-align:center;}
+
+div#image1 {text-align:center;}
+
+
+section#fback { margin-top: 2em; text-align:center;}
+
+label {
+	display:block;
+	margin: 1em 1em 0;
+}
+input:focus {
+	border: 1px solid #6C9;
+}
+input[type="text"], input[type="email"] {
+	width: 300px;
+	height: 22px;
+	margin: 0 1em 0;
+}
+input[type="submit"] {margin: 0 1em 0;}
+textarea {
+	width: 300px;
+	height: 250px;
+	display: block;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}

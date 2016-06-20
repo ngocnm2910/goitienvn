@@ -1,0 +1,85 @@
+._body {
+	margin:1px;
+	width:663px;
+	height:583px;
+	background-color:white;
+	border:0px solid pink;
+	/* border-left:1px solid #e1e1e1;	 */
+}
+table.detail {
+	border: 0px solid red;
+	padding:3px;
+	margin: 0 auto;
+	height:555px; width:660px;}
+div.note {font:normal 10px Verdana, Arial, Helvetica, sans-serif;}
+td.view {width: 240px;}
+.section {font:normal 15px Verdana, Arial, Helvetica, sans-serif;
+	text-indent:55px;
+	/*border-bottom:solid #ccc 1px;*/
+	color:#383838;
+	width:650px;
+}
+
+td.left {font:bold 14px Verdana, Arial, Helvetica, sans-serif;
+	width:130px;
+	text-align:right;
+	color:#686868;
+	border:0px solid red;
+}
+td.right {text-indent:5px;
+	font:normal 14px Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	width:280px;
+	color:black;
+	height:25px;
+	border:0px solid red;
+}
+td#note {border-top:solid #ccc 1px;}
+
+.name {
+	font:bold 18px Verdana, Arial, Helvetica, sans-serif;
+	color: #9CF;
+	text-shadow: 1px 1px 1px #888;
+}
+.pic {width:240px; margin: 0 auto;}
+
+.price {font:bold 22px Verdana, Arial, Helvetica, sans-serif;
+	line-height:140%;
+	color:#CC3300;
+	text-shadow: 1px 1px #888;
+}
+td.xcenter {text-align:center; height: 50px;
+	margin: 0  auto;}
+span.txtsmall { font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#cc3300;
+}
+span.blue {color: blue;}
+span.gold {color: #FF9900;}
+span.green {color: green;}
+
+a {text-decoration:none; color:#003399;}
+a:hover{ color:#0066cc;}
+.allborder {
+	margin: 0 auto;
+	width: 380px;
+	border:solid #ccc 1px; 
+	border-radius: 15px;
+	-moz-box-shadow: 2px 2px 2px grey;
+	-webkit-box-shadow: 2px 2px 2px grey;
+	-o-box-shadow: 2px 2px 2px grey;
+	box-shadow: 2px 2px 2px grey;
+}
+.tborder {border-top:solid #ccc 1px;}
+div.boxprice {
+	margin: 0 auto;
+	width: 180px;
+	padding: .5em;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	-webkit-box-shadow: 2px 2px 2px grey;
+	-o-box-shadow: 2px 2px 2px grey;
+	-moz-box-shadow: 2px 2px 2px grey;
+	box-shadow: 2px 2px 2px grey;
+	background-color: lavender;
+/*	background-color: #C6DEFF;
+*/}
+	

@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+._body {
+	overflow:auto;	
+	margin: 0 auto;
+	padding:0;
+	width:665px;
+	height:631px;
+	background-color:white;
+	border:0px solid pink;
+	
+}
+
+.topborder {
+	border-top:1px solid #ababab;
+
+}
+div#menu {width: 100%;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	text-align: center;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #ababab; 
+}
+
+dt {text-indent: 10px;
+	font-size: 16px; 
+	weight: bold;
+}
+dd {border: 1px solid #ababab; background-color: #f0f0f0;}
+ 
+a.links { margin: 1px 1px;
+	padding: 8px 8px 2px 2px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	width: 102px;
+	text-align: center;
+	border: 1px solid #ccc;
+	
+}
+a.links:hover { color: orange;}
+
+ul{text-align:center;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+ul li {	width:215px; height:195px;
+	float:left;
+	padding:0px;
+	margin: 1px 0px;
+	border:0px grey solid;
+}
+
+.pic {border:0;
+	height:132px;
+	display: block;
+	margin: 0 auto;
+}
+
+.bcard {border: 0; width:300px; display: block; margin: 0 auto;}
+
+span.name { font:bold 16px sans-serif, Verdana, Arial, Helvetica;}
+
+span.blue { color: blue;}
+span.gold { color: #FF9900;}
+
+
+span.nor { font:normal 14px sans-serif, Verdana, Arial, Helvetica;}
+
+span.price {font:bold 16px Verdana, Arial, Helvetica, sans-serif; color:#cc3300;}
+span.special {font:bold 16px Verdana, Arial, Helvetica, sans-serif; color:coral;}
+span.note {font:bold 14px Verdana, Arial, Helvetica, sans-serif; color:#900;}
+
+ul#ads { margin: 2px; padding:0;}
+ul#ads li { 
+	margin: 0 auto;
+	list-style-type: none; float:left; padding: 0;
+	width: 300px; height: 179px;
+	border:0px solid green;
+}
+ul#ads li a img {width: 300px; border:none;}
+ul#ads li a:hover {background: none;}
+
+.allborder {border:solid #ccc 1px;}
+.bborder {border-bottom:solid #ccc 1px;}
+.none{border:0;}
+
+.rborder {border-right:solid #ccc 1px;}
+
+a {
+	text-decoration:none; 
+	color: #003399; /*#303030;*/
+	font-weight:normal;
+}
+
+a:hover {
+	color: 0066cc;
+	text-decoration:none;
+}
+a:hover div.box{background-color: lavender;
+	margin: 0 auto;
+	width: 162px;
+	border-radius: 15px;
+	box-shadow: 2px 1px 2px #888;}	
+span.tax { 	font-size:10px;	font-family:Georgia, "Times New Roman", Times, serif;	color:#363;	vertical-align: text-top;}
+span.txtsmall { font:normal 12px Verdana, Arial, Helvetica, sans-serif; color:#cc3300;}
+/*	vertical-align:text-top;
+*/	letter-spacing: -.8px;
+
+
+section#xfer { width: 40%; float:left; margin-top: 2em;}
+table#xmoney { margin: 0 auto;
+	width: 600px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#xphone { margin: 0 auto;
+	width: 240px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+tr.xborder td { border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;}
+tr.xtop td {border-top: 1px solid #ccc;}
+
+tr.xbo td { border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc; font:bold 14px Verdana, Arial, Helvetica, sans-serif;}
+	
+aside#rate { width: 60%; float: right; margin-top: 2em;}
+
+table#ct { margin: 0 auto;
+	width: 180px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#gt { margin: 0 auto;
+	width: 240px;
+	border-radius: 15px;
+
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#vm { margin: 0 auto;
+	width: 260px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#xct { margin: 0 auto;
+	width: 300px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#xrepair { margin: 0 auto;
+	width: 300px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+table#xservice { margin: 0 auto;
+	width: 360px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	text-align:center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+.green { color: green;}
+.orange {font:bold 14px Verdana, Arial, Helvetica, sans-serif; text-align:center; color: #FF4000;}
+.blue1 {font:bold 14px Verdana, Arial, Helvetica, sans-serif; text-align:center; color: #0080FF;}
+.coral {font:bold 14px Verdana, Arial, Helvetica, sans-serif; text-align:center; color: coral;}
+.red {font:bold 14px Verdana, Arial, Helvetica, sans-serif; text-align:center; color: red;}
+.xrate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color:Green; text-align:center;}
+.repairrate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color:blue; text-align:center;}
+.vinarate {font:bold 16px Verdana, Arial, Helvetica, sans-serif; 	Color: #66C; text-align:center;}
+.orange1	{font:bold 14px Verdana, Arial, Helvetica, sans-serif; 	Color: #FF6600; text-align:center;}
+
+div#image1 { text-align: center;
+	width: 358px;
+	height: 204px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	padding: 0;
+	box-shadow: 2px 2px 2px #ccc;}
+	
+/* Policy    */
+.policytable { margin: auto; margin-top: 1em;}
+h4 {text-indent: 1em;}
+h3 {text-align: center;}
+
+/*	contact */
+section#addr { margin-top: 1em; margin-bottom: 1em;}
+
+table#t_add {margin: auto;}
+table#t_add tr td {text-align: center;}
+td#grey {color: #999;}
+table#t_add tr td a:hover { color: blue;}
+
+/*	ads */
+td#ads1 {	border: 1px solid #ccc;
+}
+td#ads1 a { font:bold 35px Georgia, "Times New Roman", Times, serif;
+}
+td#ads1 a:hover { display: block;
+	background-color: #F5ECCE;}

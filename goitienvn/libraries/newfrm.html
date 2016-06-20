@@ -1,0 +1,334 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+tr, td, select {
+	font: bold 12px "Courier New", Courier, monospace;
+}
+.i {
+	font: normal 12px "Courier New", Courier, monospace;
+	padding:1px;
+	width:150px;
+}
+.ifile {
+	font: normal 11px "Courier New", Courier, monospace;
+	padding:1px;
+	width:200px;
+}
+td {
+	padding:1px 0px 1px 0px;
+}
+.h {
+	padding:0px 0px 0px 5px;
+	background-color:#CCCCCC;
+	border-bottom:solid 1px #666666;
+}
+.buttonbox {
+	padding:6px 0px 6px 0px;
+}
+._button {
+	width:95px;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+._s {
+	width:150px;
+}
+._ssmall {
+	width:60px;
+}
+</style>
+<table width="1000" border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td width="500" valign="top"><div class="h">customer</div>
+      <table width="100%" border="0" cellspacing="1" cellpadding="2">
+        <tr>
+          <td width="80%" valign="top"><table width="380" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100" valign="middle" nowrap>last name</td>
+                <td width="140"><input class="i" type="text" name="" id="" value=""/></td>
+                <td width="140">&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>first name</td>
+                <td nowrap><input class="i" type="text" name="input" id="input" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>address</td>
+                <td><input class="i" type="text" name="input2" id="input2" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>city</td>
+                <td><input class="i" type="text" name="input3" id="input3" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>province</td>
+                <td><select class="_s">
+                    <option value="qc" selected="selected">Quebec</option>
+                    <option value="on">Ontario</option>
+                    <option value="mb">Manitoba</option>
+                    <option value="sk">Saskatchewan</option>
+                    <option value="ab">Alberta</option>
+                    <option value="bc">British Columbia</option>
+                    <option value="nf">Newfoundland</option>
+                    <option value="pe">Prince Edward Island</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nt">Northwest Territories</option>
+                  </select></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>zip/postal</td>
+                <td><input class="i" type="text" name="input5" id="input5" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>phone</td>
+                <td><input class="i" type="text" name="input5" id="input5" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>email</td>
+                <td><input class="i" type="text" name="input5" id="input5" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></td>
+          <td width="20%" valign="top"><div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="search">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="new">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="edit">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="delete">
+            </div></td>
+        </tr>
+      </table></td>
+    <td width="500" valign="top"><div class="h">transaction</div>
+      <table width="100%" border="0" cellspacing="1" cellpadding="2">
+        <tr>
+          <td width="80%" valign="top"><table width="380" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" valign="middle" nowrap>local amount</td>
+                <td width="140"><input class="i" type="text" name="" id="" value=""/></td>
+                <td width="100"><select class="_ssmall">
+                    <option value="">CAN</option>
+                    <option value="">US</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>delivery amount</td>
+                <td nowrap><input class="i" type="text" name="input" id="input" value=""/></td>
+                <td><select class="_ssmall">
+                    <option value="">CAN</option>
+                    <option value="">US</option>
+                    <option value="">VND</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>fee</td>
+                <td><input class="i" type="text" name="input2" id="input2" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>rate convert</td>
+                <td><input class="i" type="text" name="input3" id="input3" value=""/></td>
+                <td>option*</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>delivery method</td>
+                <td><select class="_s">
+                    <option value="">house delivery</option>
+                    <option value="">pick up</option>
+                    <option value="">by mail</option>
+                  </select></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>note</td>
+                <td><textarea name="" cols="22" rows="2"></textarea></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></td>
+          <td width="20%" valign="middle">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="500" valign="top"><div class="h">receiver</div></td>
+    <td width="500" valign="top"><div class="h">admin</div></td>
+  </tr>
+  <tr>
+    <td height="215" valign="top"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+        <tr>
+          <td width="80%" valign="top"><table width="380" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100" valign="middle" nowrap>last name</td>
+                <td width="140"><input class="i" type="text" name="" id="" value=""/></td>
+                <td width="140">&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>first name</td>
+                <td nowrap><input class="i" type="text" name="input" id="input" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>address/diachi</td>
+                <td><input class="i" type="text" name="input2" id="input2" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>city/tp-tinh</td>
+                <td><select class="_s">
+                    <option value="" selected>Ch&#7885;n t&#7881;nh/th&#224;nh</option>
+                    <option value="TP. H&#7891; Ch&#237; Minh">TP. H&#7891; Ch&#237; Minh</option>
+                    <option value="TP. H&#224; N&#7897;i">TP. H&#224; N&#7897;i</option>
+                    <option value="TP. &#272;&#224; N&#7859;ng">TP. &#272;&#224; N&#7859;ng</option>
+                    <option value="TP. Hu&#7871;">TP. Hu&#7871;</option>
+                    <option value="TP. H&#7843;i Ph&#242;ng">TP. H&#7843;i Ph&#242;ng</option>
+                    <option value="TP. Bi&#234;n Ho&#224;">TP. Bi&#234;n Ho&#224;</option>
+                    <option value="TP. Nha Trang">TP. Nha Trang</option>
+                    <option value="TP. C&#7847;n Th&#417;">TP. C&#7847;n Th&#417;</option>
+                    <option value="TP. C&#224; Mau">TP. C&#224; Mau</option>
+                    <option value="TP. H&#7841; Long">TP. H&#7841; Long</option>
+                    <option value="TP. Long Xuy&#234;n">TP. Long Xuy&#234;n</option>
+                    <option value="TP. Nam &#272;&#7883;nh">TP. Nam &#272;&#7883;nh</option>
+                    <option value="TP. Quy Nh&#417;n">TP. Quy Nh&#417;n</option>
+                    <option value="TP. R&#7841;ch Gi&#225;">TP. R&#7841;ch Gi&#225;</option>
+                    <option value="TP. Phan Thi&#7871;t">TP. Phan Thi&#7871;t</option>
+                    <option value="TP. Th&#225;i Nguy&#234;n">TP. Th&#225;i Nguy&#234;n</option>
+                    <option value="TP. Vinh">TP. Vinh</option>
+                    <option value="TP. V&#361;ng T&#224;u">TP. V&#361;ng T&#224;u</option>
+                    <option value="An Giang">An Giang</option>
+                    <option value="B&#224; R&#7883;a - V&#361;ng T&#224;u">B&#224; R&#7883;a - V&#361;ng T&#224;u</option>
+                    <option value="B&#7855;c Giang">B&#7855;c Giang</option>
+                    <option value="B&#7855;c K&#7841;n">B&#7855;c K&#7841;n</option>
+                    <option value="B&#7841;c Li&#234;u">B&#7841;c Li&#234;u</option>
+                    <option value="B&#7855;c Ninh">B&#7855;c Ninh</option>
+                    <option value="B&#7871;n Tre">B&#7871;n Tre</option>
+                    <option value="B&#236;nh &#272;&#7883;nh">B&#236;nh &#272;&#7883;nh</option>
+                    <option value="B&#236;nh D&#432;&#417;ng">B&#236;nh D&#432;&#417;ng</option>
+                    <option value="B&#236;nh Ph&#432;&#7899;c">B&#236;nh Ph&#432;&#7899;c</option>
+                    <option value="B&#236;nh Thu&#7853;n">B&#236;nh Thu&#7853;n</option>
+                    <option value="Bu&#244;n Ma Thu&#7897;t">Bu&#244;n Ma Thu&#7897;t</option>
+                    <option value="Cao B&#7857;ng">Cao B&#7857;ng</option>
+                    <option value="&#272;&#7855;c L&#7855;k">&#272;&#7855;c L&#7855;k</option>
+                    <option value="&#272;&#7855;c N&#244;ng">&#272;&#7855;c N&#244;ng</option>
+                    <option value="&#272;i&#7879;n Bi&#234;n">&#272;i&#7879;n Bi&#234;n</option>
+                    <option value="&#272;&#7891;ng Nai">&#272;&#7891;ng Nai</option>
+                    <option value="&#272;&#7891;ng Th&#225;p">&#272;&#7891;ng Th&#225;p</option>
+                    <option value="Gia Lai">Gia Lai</option>
+                    <option value="H&#224; Giang">H&#224; Giang</option>
+                    <option value="H&#224; Nam">H&#224; Nam</option>
+                    <option value="H&#224; T&#297;nh">H&#224; T&#297;nh</option>
+                    <option value="H&#7843;i D&#432;&#417;ng">H&#7843;i D&#432;&#417;ng</option>
+                    <option value="H&#7853;u Giang">H&#7853;u Giang</option>
+                    <option value="Ho&#224; B&#236;nh">Ho&#224; B&#236;nh</option>
+                    <option value="H&#432;ng Y&#234;n">H&#432;ng Y&#234;n</option>
+                    <option value="Kh&#225;nh Ho&#224;">Kh&#225;nh Ho&#224;</option>
+                    <option value="Ki&#234;n Giang">Ki&#234;n Giang</option>
+                    <option value="Kon Tum">Kon Tum</option>
+                    <option value="Lai Ch&#226;u">Lai Ch&#226;u</option>
+                    <option value="L&#226;m &#272;&#7891;ng">L&#226;m &#272;&#7891;ng</option>
+                    <option value="L&#7841;ng S&#417;n">L&#7841;ng S&#417;n</option>
+                    <option value="L&#224;o Cai">L&#224;o Cai</option>
+                    <option value="Long An">Long An</option>
+                    <option value="Ngh&#7879; An">Ngh&#7879; An</option>
+                    <option value="Ninh B&#236;nh">Ninh B&#236;nh</option>
+                    <option value="Ninh Thu&#7853;n">Ninh Thu&#7853;n</option>
+                    <option value="Ph&#250; Th&#7885;">Ph&#250; Th&#7885;</option>
+                    <option value="Ph&#250; Y&#234;n">Ph&#250; Y&#234;n</option>
+                    <option value="Qu&#7843;ng B&#236;nh">Qu&#7843;ng B&#236;nh</option>
+                    <option value="Qu&#7843;ng Nam">Qu&#7843;ng Nam</option>
+                    <option value="Qu&#7843;ng Ng&#227;i">Qu&#7843;ng Ng&#227;i</option>
+                    <option value="Qu&#7843;ng Ninh">Qu&#7843;ng Ninh</option>
+                    <option value="Qu&#7843;ng Tr&#7883;">Qu&#7843;ng Tr&#7883;</option>
+                    <option value="S&#243;c Tr&#259;ng">S&#243;c Tr&#259;ng</option>
+                    <option value="S&#417;n La">S&#417;n La</option>
+                    <option value="T&#226;y Ninh">T&#226;y Ninh</option>
+                    <option value="Th&#225;i B&#236;nh">Th&#225;i B&#236;nh</option>
+                    <option value="Thanh Ho&#225;">Thanh Ho&#225;</option>
+                    <option value="Th&#7911; D&#7847;u M&#7897;t">Th&#7911; D&#7847;u M&#7897;t</option>
+                    <option value="Th&#7915;a Thi&#234;n Hu&#7871;">Th&#7915;a Thi&#234;n Hu&#7871;</option>
+                    <option value="Ti&#7873;n Giang">Ti&#7873;n Giang</option>
+                    <option value="Tr&#224; Vinh">Tr&#224; Vinh</option>
+                    <option value="Tuy&#234;n Quang">Tuy&#234;n Quang</option>
+                    <option value="V&#297;nh Long">V&#297;nh Long</option>
+                    <option value="V&#297;nh Ph&#432;&#7899;c">V&#297;nh Ph&#432;&#7899;c</option>
+                    <option value="Y&#234;n B&#225;i">Y&#234;n B&#225;i</option>
+                  </select></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>phone</td>
+                <td nowrap><input class="i" type="text" name="input" id="input" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="middle"  nowrap>email</td>
+                <td nowrap><input class="i" type="text" name="input" id="input" value=""/></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></td>
+          <td width="20%" valign="top"><div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="search">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="new">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="edit">
+            </div>
+            <div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="delete">
+            </div></td>
+        </tr>
+      </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="2">
+        <tr>
+          <td valign="middle" width="140">status</td>
+          <td width="200"><select class="_s">
+              <option value="1">new</option>
+              <option value="2">approved</option>
+              <option value="3">process</option>
+              <option value="4">received</option>
+              <option value="5">completed</option>
+              <option value="6">cancel</option>
+            </select></td>
+          <td><div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="update">
+            </div></td>
+        </tr>
+        <tr>
+          <td valign="middle" width="120">confirmation by</td>
+          <td><select class="_s">
+              <option value="">by email</option>
+              <option value="">by phone</option>
+            </select></td>
+          <td><div class="buttonbox">
+              <input type="button" class="_button" id="" name="" value="save all">
+            </div></td>
+        </tr>
+        <tr>
+          <td valign="middle" width="120">note</td>
+          <td><textarea name="textarea" cols="22" rows="3"></textarea></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="middle" width="120">attachment</td>
+          <td><input class="ifile" type="file" name="fileField" id="fileField">
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
